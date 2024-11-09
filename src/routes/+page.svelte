@@ -90,7 +90,7 @@
 
 <div id="main"
      class="hero min-h-screen"
-     style="background-image: url(/main_back.jpg);">
+     style="background-image: url({base}/main_back.jpg);">
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-neutral-content text-center">
         <div class="max-w-3xl">
