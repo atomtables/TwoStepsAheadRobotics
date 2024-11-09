@@ -1,9 +1,9 @@
 <div style="display: flex; height: 100vh; justify-content: center; align-items: center">
     <div style="display: flex; flex-direction: column;">
-        <h1 style="color: white; font-family: 'Inter',sans-serif">
+        <h1 class="bold text-3xl">
             Oopsies! An error occured.
         </h1>
-        <button style="background-color: white; border: none; border-radius: 10px; padding: 10px; font-family: 'Inter', sans-serif;">
+        <button class="btn btn-primary">
             <a href="/TwoStepsAheadRobotics">Return to the light</a>
         </button>
     </div>
