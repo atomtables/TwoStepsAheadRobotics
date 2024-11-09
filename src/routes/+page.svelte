@@ -6,43 +6,43 @@
             firstName: "Diptanshu",
             lastName: "Halder",
             role: "Team Captain",
-            image: "/team/diptanshuhalder.png"
+            image: "./team/diptanshuhalder.png"
         },
         {
             firstName: "Lohitaksh",
             lastName: "Arige",
             role: "Hardware Lead",
-            image: "/team/lohitaksharige.png"
+            image: "./team/lohitaksharige.png"
         },
         {
             firstName: "Sanvi",
             lastName: "Walke",
             role: "CAD Lead",
-            image: "/team/sanviwalke.png"
+            image: "./team/sanviwalke.png"
         },
         {
             firstName: "Vishnupriya",
             lastName: "Jayabalaji",
             role: "Outreach Lead",
-            image: "/team/vishnupriyajayabalaji.png"
+            image: "./team/vishnupriyajayabalaji.png"
         },
         {
             firstName: "Avika",
             lastName: "Sharma",
             role: "Recruitment Manager",
-            image: "/team/avikasharma.png"
+            image: "./team/avikasharma.png"
         },
         {
             firstName: "Isha",
             lastName: "Kanodia",
             role: "Marketing Lead",
-            image: "/team/ishakanodia.png"
+            image: "./team/ishakanodia.png"
         },
         {
             firstName: "Adithiya",
             lastName: "Venkatakrishnan",
             role: "Electrical & Programming Lead",
-            image: "/team/adithiyavenkatakrishnan.png"
+            image: "./team/adithiyavenkatakrishnan.png"
         },
     ]
 </script>
@@ -172,7 +172,7 @@
                     more accessible to everyone. Help us shape engineering and technology's future while encouraging
                     students to engage in experiential learning.</p>
                 <div class="card-actions justify-end">
-                    <button class="btn btn-primary text-2xl"><a href="/FRC%20Sponsorship%20Packet%20Team%2010600%20TWO%20STEPS%20AHEAD.pdf">Download our Sponsor Packet</a></button>
+                    <button class="btn btn-primary text-2xl"><a href="./FRC%20Sponsorship%20Packet%20Team%2010600%20TWO%20STEPS%20AHEAD.pdf">Download our Sponsor Packet</a></button>
                 </div>
             </div>
         </div>
@@ -207,7 +207,7 @@
         <h6 class="footer-title m-0 p-0">Contact Information</h6>
         <a class="link link-hover" href="mailto:twostepsaheadrobotics@gmail.com">twostepsaheadrobotics@gmail.com</a>
         <a class="link link-hover" href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Recruitment Form</a>
-        <a class="link link-hover" href="/FRC%20Sponsorship%20Packet%20Team%2010600%20TWO%20STEPS%20AHEAD.pdf">Sponsor Kit PDF</a>
+        <a class="link link-hover" href="./FRC%20Sponsorship%20Packet%20Team%2010600%20TWO%20STEPS%20AHEAD.pdf">Sponsor Kit PDF</a>
     </nav>
     <nav></nav>
     <nav></nav>

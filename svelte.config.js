@@ -10,7 +10,7 @@ const config = {
 			fallback: undefined
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? 'https://atomtables.github.io/TwoStepsAheadRobotics' : process.env.basePath
+			base: process.argv.includes('dev') ? process.env.basePath : '/TwoStepsAheadRobotics'
 		}
 	}
 };
