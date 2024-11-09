@@ -1,4 +1,6 @@
 <script>
+    import { base } from '$app/paths';
+
     let people = [
         {
             firstName: "Diptanshu",
@@ -70,7 +72,7 @@
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
-        <a class="btn btn-ghost text-xl" href="/#main">Two Steps Ahead</a>
+        <a class="btn btn-ghost text-xl" href="{base}/#main">Two Steps Ahead</a>
     </div>
     <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
