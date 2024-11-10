@@ -98,8 +98,8 @@
             <p class="mb-5 text-3xl">
                 We are Team #10600 of passionate engineering students competing in the FIRST Robotics Competition.
             </p>
-            <button class="btn text-xl">Join Our Team</button>
-            <button class="btn btn-primary text-xl">Learn More About Us</button>
+            <button class="btn text-xl"><a href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Join Our Team</a></button>
+            <button class="btn btn-primary text-xl"><a href="#aboutus">Learn More About Us</a></button>
         </div>
     </div>
 </div>
