@@ -9,6 +9,12 @@
             image: "./team/diptanshuhalder.png"
         },
         {
+            firstName: "Adithiya",
+            lastName: "Venkatakrishnan",
+            role: "Electrical & Programming Lead",
+            image: "./team/adithiyavenkatakrishnan.png"
+        },
+        {
             firstName: "Lohitaksh",
             lastName: "Arige",
             role: "Hardware Lead",
@@ -37,12 +43,6 @@
             lastName: "Kanodia",
             role: "Marketing Lead",
             image: "./team/ishakanodia.png"
-        },
-        {
-            firstName: "Adithiya",
-            lastName: "Venkatakrishnan",
-            role: "Electrical & Programming Lead",
-            image: "./team/adithiyavenkatakrishnan.png"
         },
     ]
 </script>
@@ -106,7 +106,7 @@
 
 <div id="aboutus" class="relative bottom-[64px]"></div>
 <div class="bg-base-300 p-5">
-    <div class="card flex md:card-side bg-accent shadow-xl p-5 rounded-2xl">
+    <div class="card flex md:card-side bg-accent shadow-xl p-2 rounded-2xl">
         <figure class="flex-shrink-0 w-full md:w-1/3">
             <img
                     src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
@@ -142,17 +142,17 @@
     <h2 class="text-4xl md:text-5xl font-bold text-center mb-10 ">Our Team Leads</h2>
     <div class="flex flex-wrap justify-center">
         {#each people as person}
-            <div class="card card-side bg-base-100 hover:bg-primary transition-all shadow-xl px-3 m-4 lg:w-auto w-full">
+            <div class="card card-side bg-base-100 hover:bg-primary transition-all shadow-xl px-3 m-4 lg:w-auto w-full rounded-3xl">
                 <figure class="avatar flex-shrink-0 p-3">
-                    <div class="ring-primary ring-offset-base-100 w-36 h-36 rounded-full ring ring-offset-2">
+                    <div class="ring-primary ring-offset-base-100 w-24 h-24 md:w-36 md:h-36 rounded-full ring ring-offset-2">
                         <img
                                 src="{person.image}"
                                 alt="Movie"/>
                     </div>
                 </figure>
                 <div class="card-body p-0 px-2 flex justify-center">
-                    <h2 class="card-title text-4xl">{person.firstName} {person.lastName}</h2>
-                    <div class="text-3xl">{person.role}</div>
+                    <h2 class="card-title text-3xl sm:text-4xl">{person.firstName} {person.lastName}</h2>
+                    <div class="text-xl sm:text-3xl">{person.role}</div>
                 </div>
             </div>
         {/each}
@@ -163,7 +163,7 @@
 <div class="bg-base-100 p-5">
     <div class="bg-base-100 max-w-6xl m-auto">
         <div class="card flex max-lg:flex-col-reverse lg:card-side bg-accent shadow-xl p-5 rounded-2xl">
-            <div class="card-body bg-neutral text-neutral-content px-5 py-5 bg0 mt-2 rounded-2xl lg:mt-0 lg:rounded-none lg:rounded-l-2xl">
+            <div class="card-body bg-neutral text-neutral-content px-5 py-5 bg0 mt-2 rounded-2xl lg:mt-0 lg:rounded-none lg:rounded-2xl">
                 <h2 class="card-title text-5xl xl:text-6xl mb-2">Become one of our sponsors!</h2>
                 <p class="lg:text-lg xl:text-xl 2xl:text-2xl">By supporting FRC Team #10600, you help us on our path
                     towards.
