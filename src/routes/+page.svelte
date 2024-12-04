@@ -138,7 +138,9 @@
                     the skills that we learn
                     in robotics today will drive meaningful change tomorrow.</p>
                 <div class="card-actions justify-end">
-                    <button class="btn btn-primary text-2xl">Join our Team</button>
+                    <button class="btn btn-primary text-2xl"><a
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Join
+                        Our Team</a></button>
                 </div>
             </div>
         </div>
