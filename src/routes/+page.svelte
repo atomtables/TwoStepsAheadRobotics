@@ -1,5 +1,5 @@
 <script>
-    import { base } from '$app/paths';
+    import {base} from '$app/paths';
 
     let people = [
         {
@@ -27,10 +27,10 @@
             image: "./team/sanviwalke.png"
         },
         {
-            firstName: "Vishnupriya",
-            lastName: "Jayabalaji",
+            firstName: "Muye",
+            lastName: "Chen",
             role: "Outreach Lead",
-            image: "./team/vishnupriyajayabalaji.png"
+            image: "./team/nopicture.PNG"
         },
         {
             firstName: "Avika",
@@ -39,10 +39,10 @@
             image: "./team/avikasharma.png"
         },
         {
-            firstName: "Isha",
-            lastName: "Kanodia",
+            firstName: "Syna",
+            lastName: "Goyal",
             role: "Marketing Lead",
-            image: "./team/ishakanodia.png"
+            image: "./team/nopicture.PNG"
         },
     ]
 </script>
@@ -84,7 +84,9 @@
         </ul>
     </div>
     <div class="navbar-end">
-        <a class="btn btn-accent rounded-2xl" href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Join Us</a>
+        <a class="btn btn-accent rounded-2xl"
+           href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Join
+            Us</a>
     </div>
 </div>
 
@@ -96,9 +98,11 @@
         <div class="max-w-3xl">
             <h1 class="mb-5 text-8xl font-bold">Two Steps Ahead</h1>
             <p class="mb-5 text-3xl">
-                We are Team #10600 of passionate engineering students competing in the FIRST Robotics Competition.
+                We are a 501(c)(3) registered nonprofit, and are Team #10600 of passionate engineering students competing in the FIRST Robotics Competition.
             </p>
-            <button class="btn text-xl"><a href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Join Our Team</a></button>
+            <button class="btn text-xl"><a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Join
+                Our Team</a></button>
             <button class="btn btn-primary text-xl"><a href="#aboutus">Learn More About Us</a></button>
         </div>
     </div>
@@ -106,32 +110,36 @@
 
 <div id="aboutus" class="relative bottom-[64px]"></div>
 <div class="bg-base-300 p-5">
-    <div class="card flex md:card-side bg-accent shadow-xl p-2 rounded-2xl">
-        <figure class="flex-shrink-0 w-full md:w-1/3">
-            <img
-                    src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
-                    alt="Album"
-                    class="rounded-2xl md:rounded-none w-full h-full object-cover"
-                    style="height: 100%; max-height: 500px;"
-            />
-        </figure>
-        <div class="card-body bg-neutral text-neutral-content px-5 py-5 bg0 mt-2 rounded-2xl md:mt-0 md:rounded-none md:rounded-e-2xl">
-            <h2 class="card-title text-4xl md:text-6xl mb-2">Who are we?</h2>
-            <p class="lg:text-lg xl:text-xl 2xl:text-2xl">We are a group of passionate engineering sophomores, FRC Team
-                #10600, from
-                the region
-                around Middlesex County, New Jersey. Our interests are to introduce and cultivate robotics into the
-                technology
-                and people around us, and to use robotics to better our society. We aim to inspire a love for
-                technology and engineering in our community and the next generations.
-                <br><br>
-                Our interests are to give back to our community, hosting workshops, mentoring younger students, and
-                partnering with local organisations.
-                At Team #10600, we work together to make a difference in our region and the larger world, proving that
-                the skills that we learn
-                in robotics today will drive meaningful change tomorrow.</p>
-            <div class="card-actions justify-end">
-                <button class="btn btn-primary text-2xl">Join our Team</button>
+    <div class="card flex md:card-side bg-accent shadow-xl p-5 rounded-2xl">
+        <div class="flex flex-col md:flex-row shadow-2xl">
+            <figure class="flex-shrink-0 w-full md:w-1/3">
+                <img
+                        src="https://img.daisyui.com/images/stock/photo-1494232410401-ad00d5433cfa.webp"
+                        alt="Album"
+                        class="rounded-2xl md:rounded-none w-full h-full object-cover"
+                        style="height: 100%; max-height: 500px;"
+                />
+            </figure>
+            <div class="card-body bg-neutral text-neutral-content px-5 py-5 bg0 mt-2 rounded-2xl md:mt-0 md:rounded-none md:rounded-e-2xl">
+                <h2 class="card-title text-4xl md:text-6xl mb-2">Who are we?</h2>
+                <p class="lg:text-lg xl:text-xl 2xl:text-2xl">We are a group of passionate engineering sophomores, FRC
+                    Team
+                    #10600, from
+                    the region
+                    around Middlesex County, New Jersey. Our interests are to introduce and cultivate robotics into the
+                    technology
+                    and people around us, and to use robotics to better our society. We aim to inspire a love for
+                    technology and engineering in our community and the next generations.
+                    <br><br>
+                    Our interests are to give back to our community, hosting workshops, mentoring younger students, and
+                    partnering with local organisations.
+                    At Team #10600, we work together to make a difference in our region and the larger world, proving
+                    that
+                    the skills that we learn
+                    in robotics today will drive meaningful change tomorrow.</p>
+                <div class="card-actions justify-end">
+                    <button class="btn btn-primary text-2xl">Join our Team</button>
+                </div>
             </div>
         </div>
     </div>
@@ -151,7 +159,7 @@
                     </div>
                 </figure>
                 <div class="card-body p-0 px-2 flex justify-center">
-                    <h2 class="card-title text-3xl sm:text-4xl">{person.firstName} {person.lastName}</h2>
+                    <h2 class="card-title text-3xl sm:text-4xl">{person.firstName}</h2>
                     <div class="text-xl sm:text-3xl">{person.role}</div>
                 </div>
             </div>
@@ -164,15 +172,29 @@
     <div class="bg-base-100 max-w-6xl m-auto">
         <div class="card flex max-lg:flex-col-reverse lg:card-side bg-accent shadow-xl p-5 rounded-2xl">
             <div class="card-body bg-neutral text-neutral-content px-5 py-5 bg0 mt-2 rounded-2xl lg:mt-0 lg:rounded-none lg:rounded-2xl">
-                <h2 class="card-title text-5xl xl:text-6xl mb-2">Become one of our sponsors!</h2>
-                <p class="lg:text-lg xl:text-xl 2xl:text-2xl">By supporting FRC Team #10600, you help us on our path
-                    towards.
-                    competitions, community help, and communal workshops.
+                <h2 class="card-title text-5xl xl:text-6xl mb-2">Our Sponsors</h2>
+                <div class="lg:text-lg xl:text-xl 2xl:text-2xl">
+                    <div class="flex flex-row w-full">
+                        <div class="w-1/3 m-2 p-2 bg-base-300 rounded-2xl flex">
+                            <img src="./nasa.WEBP" alt="NASA" class="object-contain">
+                        </div>
+                        <div class="w-1/3 m-2 p-2 bg-base-300 rounded-2xl flex">
+                            <img src="./argosyfoundation.PNG" alt="Argosy Foundation" class="w-full object-contain">
+                        </div>
+                        <div class="w-1/3 m-2 p-2 bg-base-300 rounded-2xl flex">
+                            <img src="./hackclub.PNG" alt="Hack Club" class="object-contain">
+                        </div>
+                    </div>
+                    By supporting FRC Team #10600, you help us on our path
+                    towards competitions, community help, and communal workshops.
                     Your assistance will help us cover the price of supplies and resources that we need, making STEM
                     more accessible to everyone. Help us shape engineering and technology's future while encouraging
-                    students to engage in experiential learning.</p>
+                    students to engage in experiential learning.
+                </div>
                 <div class="card-actions justify-end">
-                    <button class="btn btn-primary text-2xl"><a href="./FRC%20Sponsorship%20Packet%20Team%2010600%20TWO%20STEPS%20AHEAD.pdf">Download our Sponsor Packet</a></button>
+                    <button class="btn btn-primary text-2xl"><a
+                            href="./FRC%20Sponsorship%20Packet%20Team%2010600%20TWO%20STEPS%20AHEAD.pdf">Download our
+                        Sponsor Packet</a></button>
                 </div>
             </div>
         </div>
@@ -187,7 +209,8 @@
     <div class="hero-content text-neutral-content text-center">
         <div class="p-10">
             <h1 class="mb-5 text-8xl font-bold">Two Steps Ahead</h1>
-            <button class="btn btn-primary btn-lg rounded-full ml-3 mr-2"><a href="mailto:twostepsaheadrobotics@gmail.com">Contact
+            <button class="btn btn-primary btn-lg rounded-full ml-3 mr-2"><a
+                    href="mailto:twostepsaheadrobotics@gmail.com">Contact
                 Us</a></button>
             <button class="btn btn-accent btn-lg rounded-full mr-3"><a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Join
@@ -206,15 +229,19 @@
     <nav>
         <h6 class="footer-title m-0 p-0">Contact Information</h6>
         <a class="link link-hover" href="mailto:twostepsaheadrobotics@gmail.com">twostepsaheadrobotics@gmail.com</a>
-        <a class="link link-hover" href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Recruitment Form</a>
-        <a class="link link-hover" href="./FRC%20Sponsorship%20Packet%20Team%2010600%20TWO%20STEPS%20AHEAD.pdf">Sponsor Kit PDF</a>
+        <a class="link link-hover"
+           href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Recruitment
+            Form</a>
+        <a class="link link-hover" href="./FRC%20Sponsorship%20Packet%20Team%2010600%20TWO%20STEPS%20AHEAD.pdf">Sponsor
+            Kit PDF</a>
     </nav>
     <nav></nav>
     <nav></nav>
 </footer>
 <footer class="footer bg-base-200 text-base-content border-base-content border-t px-10 py-4">
     <aside class="grid-flow-col items-center">
-        <svg fill="#FFFFFF" height="36px" width="36px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        <svg fill="#FFFFFF" height="36px" width="36px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+             xmlns:xlink="http://www.w3.org/1999/xlink"
              viewBox="0 0 211.98 211.98" xml:space="preserve">
             <path d="M98.801,170.532c3.78,15.666,4.068,21.943,1.338,29.203c-2.882,7.662-11.762,10.423-13.31,10.852
                 c-0.905,0.311-4.38,1.394-8.789,1.394c-8.531,0-15.295-4.126-19.046-11.619c-2.849-5.692-4.532-10.611-6.16-15.369
@@ -240,7 +267,7 @@
         </svg>
         <p>
             Two Steps Ahead Robotics
-            <br />
+            <br/>
             FRC Team #10600
         </p>
     </aside>
