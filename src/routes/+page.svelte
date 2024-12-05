@@ -98,7 +98,8 @@
         <div class="max-w-3xl">
             <h1 class="mb-5 text-8xl font-bold">Two Steps Ahead</h1>
             <p class="mb-5 text-3xl">
-                We are a 501(c)(3) registered nonprofit, and are Team #10600 of passionate engineering students competing in the FIRST Robotics Competition.
+                We are a 501(c)(3) registered nonprofit, and are Team #10600 of passionate engineering students
+                competing in the FIRST Robotics Competition.
             </p>
             <button class="btn text-xl"><a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Join
@@ -176,15 +177,24 @@
             <div class="card-body bg-neutral text-neutral-content px-5 py-5 bg0 mt-2 rounded-2xl lg:mt-0 lg:rounded-none lg:rounded-2xl">
                 <h2 class="card-title text-5xl xl:text-6xl mb-2">Our Sponsors</h2>
                 <div class="lg:text-lg xl:text-xl 2xl:text-2xl">
-                    <div class="flex flex-row w-full">
-                        <div class="w-1/3 m-2 p-2 bg-base-300 rounded-2xl flex">
+                    <div class="flex flex-col md:flex-row w-full">
+                        <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col">
                             <img src="./nasa.WEBP" alt="NASA" class="object-contain">
+                            <div class="badge badge-secondary text-white gap-3 rounded-full p-2 my-2 w-full text-xl font-bold h-12">
+                                NASA: Platinum Sponsor
+                            </div>
                         </div>
-                        <div class="w-1/3 m-2 p-2 bg-base-300 rounded-2xl flex">
+                        <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col">
                             <img src="./argosyfoundation.PNG" alt="Argosy Foundation" class="w-full object-contain">
+                            <div class="badge badge-warning gap-3 rounded-full p-2 my-2 w-full text-xl font-bold h-12">
+                                Argosy Foundation: Gold Sponsor
+                            </div>
                         </div>
-                        <div class="w-1/3 m-2 p-2 bg-base-300 rounded-2xl flex">
+                        <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col">
                             <img src="./hackclub.PNG" alt="Hack Club" class="object-contain">
+                            <div class="badge badge-warning gap-3 rounded-full p-2 my-2 w-full text-xl font-bold h-12">
+                                Hack Club: Gold Sponsor
+                            </div>
                         </div>
                     </div>
                     By supporting FRC Team #10600, you help us on our path
