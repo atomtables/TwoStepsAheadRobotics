@@ -192,8 +192,8 @@
                         </div>
                         <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col">
                             <img src="./hackclub.PNG" alt="Hack Club" class="object-contain">
-                            <div class="badge badge-warning gap-3 rounded-full p-2 my-2 w-full text-xl font-bold h-12">
-                                Hack Club: Gold Sponsor
+                            <div class="badge badge-primary gap-3 rounded-full p-2 my-2 w-full text-xl font-bold h-12">
+                                Hack Club: Silver Sponsor
                             </div>
                         </div>
                     </div>
