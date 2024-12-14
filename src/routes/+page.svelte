@@ -60,7 +60,7 @@
             firstName: "Nathaniel",
             lastName: "George",
             role: "Programming Co-Lead",
-            imagE: "./team/nopicture.PNG"
+            image: "./team/nopicture.PNG"
         }
     ]
 </script>
