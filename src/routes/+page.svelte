@@ -44,6 +44,12 @@
             role: "Marketing Lead",
             image: "./team/nopicture.PNG"
         },
+        {
+            firstName: "Aryan",
+            lastName: "Parikh",
+            role: "Financial Lead",
+            image: "./team/aryanparikh.png"
+        }
     ]
 </script>
 
@@ -180,19 +186,19 @@
                     <div class="flex flex-col md:flex-row w-full">
                         <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col">
                             <img src="./nasa.WEBP" alt="NASA" class="object-contain">
-                            <div class="badge badge-secondary text-white gap-3 rounded-full p-2 my-2 w-full text-xl font-bold h-12">
+                            <div class="badge badge-secondary text-white gap-3 rounded-full p-2 my-2 w-full text-xl font-bold">
                                 NASA: Platinum Sponsor
                             </div>
                         </div>
                         <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col">
                             <img src="./argosyfoundation.PNG" alt="Argosy Foundation" class="w-full object-contain">
-                            <div class="badge badge-warning gap-3 rounded-full p-2 my-2 w-full text-xl font-bold h-12">
+                            <div class="badge badge-warning gap-3 rounded-full p-2 my-2 w-full text-xl font-bold">
                                 Argosy Foundation: Gold Sponsor
                             </div>
                         </div>
                         <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col">
                             <img src="./hackclub.PNG" alt="Hack Club" class="object-contain">
-                            <div class="badge badge-primary gap-3 rounded-full p-2 my-2 w-full text-xl font-bold h-12">
+                            <div class="badge badge-primary gap-3 rounded-full p-2 my-2 w-full text-xl font-bold">
                                 Hack Club: Silver Sponsor
                             </div>
                         </div>

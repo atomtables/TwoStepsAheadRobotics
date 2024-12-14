@@ -4,7 +4,7 @@
             Oopsies! An error occured.
         </h1>
         <button class="btn btn-primary">
-            <a href="/TwoStepsAheadRobotics">Return to the light</a>
+            <a href="/">Return to the light</a>
         </button>
     </div>
 </div>
