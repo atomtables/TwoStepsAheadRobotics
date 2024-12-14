@@ -11,7 +11,7 @@
         {
             firstName: "Adithiya",
             lastName: "Venkatakrishnan",
-            role: "Electrical & Programming Lead",
+            role: "Electrical Lead",
             image: "./team/adithiyavenkatakrishnan.png"
         },
         {
@@ -49,6 +49,18 @@
             lastName: "Parikh",
             role: "Financial Lead",
             image: "./team/aryanparikh.png"
+        },
+        {
+            firstName: "Vedaswaroop",
+            lastName: "Kunamneni",
+            role: "Programming Co-Lead",
+            image: "./team/nopicture.PNG"
+        },
+        {
+            firstName: "Nathaniel",
+            lastName: "George",
+            role: "Programming Co-Lead",
+            imagE: "./team/nopicture.PNG"
         }
     ]
 </script>
