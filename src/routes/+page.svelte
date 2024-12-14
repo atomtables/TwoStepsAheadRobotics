@@ -114,15 +114,15 @@
     <div class="hero-overlay bg-opacity-60"></div>
     <div class="hero-content text-neutral-content text-center">
         <div class="max-w-3xl">
-            <h1 class="mb-5 text-8xl font-bold">Two Steps Ahead</h1>
-            <p class="mb-5 text-3xl">
+            <h1 class="mb-5 text-6xl md:text-8xl font-bold">Two Steps Ahead</h1>
+            <p class="mb-5 text-xl sm:text-3xl">
                 We are a 501(c)(3) registered nonprofit, and are Team #10600 of passionate engineering students
                 competing in the FIRST Robotics Competition.
             </p>
-            <button class="btn text-xl"><a
+            <button class="btn text-xl my-1"><a
                     href="https://docs.google.com/forms/d/e/1FAIpQLSecIavfHjLfzPW8LwJ7kLwPxfqToHNaHzr6P0ak8c20i7ky3Q/viewform">Join
                 Our Team</a></button>
-            <button class="btn btn-primary text-xl"><a href="#aboutus">Learn More About Us</a></button>
+            <button class="btn btn-primary text-xl my-1"><a href="#aboutus">Learn More About Us</a></button>
         </div>
     </div>
 </div>
@@ -196,21 +196,21 @@
                 <h2 class="card-title text-5xl xl:text-6xl mb-2">Our Sponsors</h2>
                 <div class="lg:text-lg xl:text-xl 2xl:text-2xl">
                     <div class="flex flex-col md:flex-row w-full">
-                        <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col">
+                        <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col justify-center">
                             <img src="./nasa.WEBP" alt="NASA" class="object-contain">
-                            <div class="badge badge-secondary text-white gap-3 rounded-full p-2 my-2 w-full text-xl font-bold">
+                            <div class="bg-secondary text-white text-center gap-3 rounded-full p-2 my-2 w-full text-xl font-bold">
                                 NASA: Platinum Sponsor
                             </div>
                         </div>
-                        <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col">
+                        <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col justify-center">
                             <img src="./argosyfoundation.PNG" alt="Argosy Foundation" class="w-full object-contain">
-                            <div class="badge badge-warning gap-3 rounded-full p-2 my-2 w-full text-xl font-bold">
+                            <div class="bg-warning text-warning-content text-center gap-3 rounded-full p-2 my-2 w-full text-xl font-bold">
                                 Argosy Foundation: Gold Sponsor
                             </div>
                         </div>
-                        <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col">
+                        <div class="md:w-1/3 m-2 p-5 bg-base-300 rounded-2xl flex flex-col justify-center">
                             <img src="./hackclub.PNG" alt="Hack Club" class="object-contain">
-                            <div class="badge badge-primary gap-3 rounded-full p-2 my-2 w-full text-xl font-bold">
+                            <div class="bg-primary text-primary-content text-center gap-3 rounded-full p-2 my-2 w-full text-xl font-bold">
                                 Hack Club: Silver Sponsor
                             </div>
                         </div>
