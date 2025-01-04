@@ -45,12 +45,6 @@
             image: "./team/nopicture.PNG"
         },
         {
-            firstName: "Aryan",
-            lastName: "Parikh",
-            role: "Financial Lead",
-            image: "./team/aryanparikh.png"
-        },
-        {
             firstName: "Vedaswaroop",
             lastName: "Kunamneni",
             role: "Programming Co-Lead",
