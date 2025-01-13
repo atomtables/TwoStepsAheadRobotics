@@ -116,7 +116,7 @@
         <div class="max-w-3xl">
             <h1 class="mb-5 text-6xl md:text-8xl font-bold">Two Steps Ahead</h1>
             <p class="mb-5 text-xl sm:text-3xl">
-                We are a 501(c)(3) registered nonprofit, and are Team #10600 of passionate engineering students
+                We are a 501(c)(3) registered nonprofit, and are Rookie Team #10600 of passionate engineering students
                 competing in the FIRST Robotics Competition.
             </p>
             <button class="btn text-xl my-1"><a
