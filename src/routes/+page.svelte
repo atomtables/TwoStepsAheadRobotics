@@ -21,12 +21,6 @@
             image: "./team/lohitaksharige.png"
         },
         {
-            firstName: "Sanvi",
-            lastName: "Walke",
-            role: "CAD Lead",
-            image: "./team/sanviwalke.png"
-        },
-        {
             firstName: "Muye",
             lastName: "Chen",
             role: "Outreach Lead",
@@ -55,6 +49,12 @@
             lastName: "George",
             role: "Programming Co-Lead",
             image: "./team/nopicture.PNG"
+        },
+        {
+            firstName: "Aryan",
+            lastName: "Parikh",
+            role: "Financial Lead",
+            image: "./team/aryanparikh.png"
         }
     ]
 </script>
